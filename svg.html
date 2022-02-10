@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG</title>
+</head>
+<body id="body">
+
+<svg onload="console.log(1)"></svg>
+<script>
+    document.getElementById('body').innerHTML =
+        "<svg onload=\"console.log(2)\"></svg>";
+</script>
+
+</body>
+</html>
+
+

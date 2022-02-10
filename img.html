@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IMG</title>
+</head>
+<body id="body">
+
+<img src="pink.jpg" onload="console.log(1)">
+<script>
+    document.getElementById('body').innerHTML =
+        "<img src='pink.jpg' onload=\"console.log(2)\">";
+</script>
+
+</body>
+</html>
+
+

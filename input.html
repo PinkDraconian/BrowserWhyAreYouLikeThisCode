@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INPUT</title>
+</head>
+<body id="body">
+
+<input src='pink.jpg' type="image" onload="console.log(1)">
+<script>
+    document.getElementById('body').innerHTML =
+        "<input src='pink.jpg' type=\"image\" onload=\"console.log(2)\">";
+</script>
+
+</body>
+</html>
+
+

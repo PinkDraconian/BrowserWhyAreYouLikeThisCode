@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IFRAME</title>
+</head>
+<body id="body">
+
+<iframe onload="console.log(1)"></iframe>
+<script>
+    document.getElementById('body').innerHTML =
+        "<iframe onload=\"console.log(2)\"></iframe>";
+</script>
+
+</body>
+</html>
+
+
